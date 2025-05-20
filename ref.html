@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reference pic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('bgref.png'); /* Replace 'your-background-image.jpg' with the actual image file path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-bottom: 20px;
+            max-width: 700px;
+            border: 2px solid #0a31cd;
+            
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .description {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .view-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="background-color:red;">Refer Pic</h1>
+        <img src="ref.png" alt="Large Image" class="image">
+        <p class="description" style="background-color:rgb(41, 231, 63);">1 - J BLOCK </p>
+
+        <p class="description" style="background-color:rgba(56, 112, 225, 0.821);">2 - E/F BLOCK </p>
+
+        <p class="description" style="background-color:rgb(243, 95, 95);">3 - A/B BLOCK </p>
+        
+        <p class="description" style="background-color:rgb(158, 179, 182);">4 - H/MBA BLOCK </p>
+        
+        <p class="description" style="background-color:yellow;">5 - L BLOCK </p>
+        
+        <p class="description" style="background-color:rgba(229, 11, 160, 0.716);">6 - N BLOCK </p>
+        
+        <div class="button-container">
+            <button class="view-button" onclick="viewLargeImage()">Start Navigation</button>
+        </div>
+    </div>
+
+    <script>
+        function viewLargeImage() {
+            // Replace this with the actual URL of the larger image
+            window.open("input.html", "_blank");
+        }
+    </script>
+</body>
+</html>
